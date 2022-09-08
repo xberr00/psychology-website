@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+    crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand"> Психолог</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Публикации</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Цены</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Контакт</a>
+            </li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+              <button class="btn btn-success" type="submit">Поиск</button>
+            </form>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div>
+
+        <div class="row">
+          <div class="col-xl-6">
+            <h1>Вероника Беруненко</h1>
+            <p class="title-p">Психоаналитический психотерапевт, который поможет Вам разобраться в непростых ситуациях,
+              обрести
+              равновесие и научиться понимать себя лучше и глубже.</p>
+            <button type="button" class="btn btn-dark btn-lg download"><i class="bi bi-telephone"></i>
+              Записаться</button>
+
+            <button type="button" class="btn btn-outline-light btn-lg download"><i class="bi bi-book"></i>
+              Узнать больше</button>
+          </div>
+          <div class="col-xl-6">
+
+            <img class="title-image" src="profile picture.jpg" alt="profile of person">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="box col-xl-4">
+        <i class="icon fa-solid fa-circle-check fa-4x"></i>
+        <h3 class="feautures-p">Образование:</h3>
+        <p class="feautures-p">Университет психологии</p>
+        <p class="feautures-p">Курс общей психологии</p>
+      </div>
+      <div class="box col-xl-4">
+        <i class="icon fa-solid fa-bullseye fa-4x"></i>
+        <h3 class="feautures-p">Специализация:</h3>
+        <p class="feautures-p">Работа со взрослыми</p>
+        <p class="feautures-p">Подростками</p>
+        <p class="feautures-p">Семейными парами</p>
+      </div>
+      <div class="box col-xl-4">
+        <i class="icon fa-solid fa-heart fa-4x"></i>
+        <h3 class="feautures-p">Направления</h3>
+        <p class="feautures-p">Радикальная психология</p>
+        <p class="feautures-p">Гештальт</p>
+        <p class="feautures-p">Либеральная</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover"
+      data-bs-interval="3000" data-bs-touch="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Очень рад, что вовремя попал на прием к Веронике, она мне помогла понять, что я
+            иду не в ту
+            сферу деятельности учиться, которую мне навязали и поступила на интересную для меня специализацию.
+            Обязательно еще обращусь для решения остальных вопросов. Спасибо!</h2>
+          <img class="testimonial-img" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Лабродорыч</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Доктор решила нашу проблему. Мы придем к ней на повторный прием, чтобы закрепить
+            результат. У неё большой опыт работы. Врач разобралась в проблеме и выявила исход решения.</h2>
+          <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Катя</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Весь сеанс слушала меня внимательно, смогла найти очаг проблемы, на прием приду
+            еще раз. Мне есть на чем подумать, после приема и думаю это может помочь мне решить проблему.</h2>
+          <em>Ира</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="pricing-h2">ВЫБЕРИТЕ ПОДХОДЯЩИЙ ВАМ ФОРМАТ </h2>
+    <p>Простые и доступные тарифные планы для вас</p>
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3 ">
+            <h4 class="my-0 fw-normal">Бесплатная консультация</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0 гр<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Первая консультация - Бесплатная/li>
+              <li>Выявление базовых проблем</li>
+              <li>Составление плана решения</li>
+              <li>Помошь в выборе лечения</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Записаться</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Краткая консультация</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">1500 гр<small class="text-muted fw-light">/мес</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>3 встречи по 50 мин</li>
+              <li>Дает ответы на волнующие вас вопросы</li>
+              <li>выявляет неконструктивные жизненные сценарии</li>
+              <li>Составление плана решения</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Записаться</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Краткосрочная
+              терапия</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">5000гр<small class="text-muted fw-light">/мес</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Работаем на уровне сознания</li>
+              <li>Находим новые стратегии и решения</li>
+              <li>Краткосрочная терапия ориентирована на решение конкретной задачи</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta">Запишись на прием уже сейчас</h3>
+    <div class="footer-button">
+      <button type="button" class="btn btn-dark btn-lg download"><i class="bi bi-telephone"></i>
+        Записаться</button>
+      <button type="button" class="btn btn-outline-light btn-lg download"><i class="bi bi-book"></i>
+        Узнать больше</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a href="https://www.instagram.com/veronika.berunenko/"><i class="social-icon bi bi-instagram"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100008347668357" i class="social-icon bi bi-facebook"></a>
+    <i class="social-icon bi bi-envelope" action="mailto:roman.berunenko@gmail.com"></i>
+    <p class="p-footer">© Copyright</p>
+
+  </footer>
+
+
+</body>
+
+</html>
